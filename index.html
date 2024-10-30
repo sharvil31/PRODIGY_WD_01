@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Navigation Bar</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header class="header">
+        <a href="#" class="name"><span>navbar</span></a>
+
+        <nav class="navbar">
+            <a href="#hero">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#contact-us">Contact Us</a>
+        </nav>
+
+        <div class="btns">
+            <div class="btn log-in-btn">Log in</div>
+        <div class="btn sign-up-btn">Sign Up</div>
+        <div id="menu-icon" title="Menu" class="fas fa-bars">
+        </div>
+        </div>
+    </header>
+
+
+    <section class="hero" id="hero">
+        <span>Hero</span>
+    </section>
+
+    <section class="about-us" id="about-us">
+        <span>About Us</span>
+    </section>
+
+    <section class="products" id="products">
+        <span>Products</span>
+    </section>
+
+    <section class="contact-us" id="contact-us">
+        <span>Contact Us</span>
+    </section>
 </body>
 </html>
